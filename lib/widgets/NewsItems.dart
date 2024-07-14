@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 class Newsitems extends StatelessWidget {
   const Newsitems({super.key});
-
+ 
   @override
   Widget build(BuildContext context) {
     return Column(

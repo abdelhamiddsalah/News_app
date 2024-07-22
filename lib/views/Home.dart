@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_ozoo/models/Category_class.dart';
+import 'package:flutter_ozoo/views/part.dart';
 import 'package:flutter_ozoo/widgets/Category_cars.dart';
 import 'package:flutter_ozoo/widgets/ListItems_col.dart';
 import 'package:flutter_ozoo/widgets/ListItems_hor.dart';
@@ -12,8 +13,8 @@ class Toku extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
-      appBar: AppBar(
+      backgroundColor: Color(0xff41a855),
+       appBar: AppBar(
         backgroundColor: Colors.transparent,
         elevation: 0,
         title: Row(
@@ -34,15 +35,16 @@ class Toku extends StatelessWidget {
             SliverToBoxAdapter(child: List2(),)
           ],
         ),
-        /*child: Column(
-          children: [
-            List1(),
-            SizedBox(height: 33,),
-            Expanded(child: List2())
-          ],
-        ),*/
+        
       )
-    );
+              );
+        
+    
+      
+      
+               
   }
+
+  
 }
 

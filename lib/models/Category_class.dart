@@ -1,9 +1,8 @@
 class category {
-  String image;
-  String name;
+ final String image;
+  final String name;
   category({required this.image , required this.name});
-}
-List nws = [
+ static List<category> nws = [
   category(image: "assets/images/business.avif", name: "Business"),
   category(image: "assets/images/entertaiment.avif", name: "Entertainment"),
   category(image: "assets/images/general.avif", name: "General"),
@@ -12,3 +11,4 @@ List nws = [
   category(image: "assets/images/sports.avif", name: "Sports"),
   category(image: "assets/images/technology.jpeg", name: "Technology"),
 ];
+}

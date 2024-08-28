@@ -1,10 +1,8 @@
 import "package:flutter/material.dart";
-import "package:flutter_ozoo/Services/News.dart";
-
-import "package:flutter_ozoo/views/Home.dart";
+import "package:flutter_ozoo/views/pages/Home.dart";
 
 void main(List<String> args) {
-  getNews().getHttp();
+  
   runApp(const App());
 }
 class App extends StatelessWidget {
